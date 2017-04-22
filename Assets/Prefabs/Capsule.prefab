@@ -45,8 +45,8 @@ GameObject:
   - component: {fileID: 114839295567093198}
   - component: {fileID: 54057375079471970}
   m_Layer: 0
-  m_Name: Player
-  m_TagString: Untagged
+  m_Name: Capsule
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   mouseSensitivityX: 1
   mouseSensitivityY: 1
   walkSpeed: 6
-  jumpForce: 750
+  jumpForce: 380
   groundedMask:
     serializedVersion: 2
     m_Bits: 256

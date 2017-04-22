@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour {
+
+    public int curLevel;
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +20,7 @@ public class NextLevel : MonoBehaviour {
      void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Cube") {
-            Debug.Log("You Win");
+           SceneManager.LoadScene(curLevel + 1, LoadSceneMode.Single);
         }
     }
 }
