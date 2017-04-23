@@ -224,7 +224,7 @@ Prefab:
     - target: {fileID: 114539450457290320, guid: b0b67327a8be47a4c92be5eabe8001c0,
         type: 2}
       propertyPath: curLevel
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b0b67327a8be47a4c92be5eabe8001c0, type: 2}
@@ -678,8 +678,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 0.36278114, g: 0.56888354, b: 0.8088235, a: 1}
-  m_Intensity: 10
+  m_Color: {r: 0, g: 0.32616636, b: 0.7058823, a: 1}
+  m_Intensity: 2.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -712,7 +712,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1711803097}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.96, y: 9.78, z: 2.32}
+  m_LocalPosition: {x: 2.85, y: 9.01, z: 2.32}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

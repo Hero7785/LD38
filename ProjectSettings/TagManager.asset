@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Planet
   - Cube
+  - Weight
+  - Red
+  - Blue
   layers:
   - Default
   - TransparentFX

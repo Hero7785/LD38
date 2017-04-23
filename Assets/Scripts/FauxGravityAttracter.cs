@@ -12,6 +12,8 @@ public class FauxGravityAttracter : MonoBehaviour {
 
         rb.AddForce(gravityUp * gravity);
 
+        //Debug.Log(rb.name +  ": " + gravityUp * gravity);
+
         rb.rotation = Quaternion.FromToRotation(localUp, gravityUp) * rb.rotation;
     }
 }
